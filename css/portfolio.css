@@ -1,10 +1,50 @@
+/* nav-section */
+
+.section-menu .item .link.current {
+  color: var(--accent-color);
+}
+
+.section-menu .item .link:hover,
+.section-menu .item .link:focus {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+.section-menu .item .link {
+  color: var(--primary-text-color);
+}
+
 /* Filters section */
 
 .filter {
   color: #212121;
+  background: #e5e5e5;
+}
+
+.filter .container {
+  display: block;
+  align-items: center;
+  padding-bottom: 94px;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 94px 0 50px 0;
+  margin: 0;
+}
+
+.section .item {
+  margin-right: 30px;
+}
+
+.section .item:last-child {
+  margin-right: 0;
 }
 
 .button {
+  padding: 0 22px 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -29,6 +69,35 @@
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+.section.projects {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.section .list {
+  text-align: center;
+  margin-right: 30px;
+}
+
+.section .list:nth-child(3n + 3) {
+  margin-right: 0;
+}
+
+.section .list:last-child {
+  margin-right: 0;
+}
+
+.section .list {
+  background: #ffffff;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
 .section .title {
   color: var(--primary-text-color);
 
@@ -38,10 +107,27 @@
   letter-spacing: 0.06em;
 }
 
+.section .title {
+  text-align: left;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
 .section .text {
   color: var(--title-text-color);
 
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+}
+
+.section .text {
+  text-align: left;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  margin: 0;
 }
