@@ -38,6 +38,14 @@ body {
   padding: 94px 0;
 }
 
+.logo {
+  font-family: Raleway;
+}
+
+.image {
+  display: block;
+}
+
 /* Применится ко всем тегам с классом ul */
 
 ul {
@@ -74,7 +82,6 @@ p {
 
 /* Site Nav */
 
-
 header {
   border: 1px solid #ececec;
   background-color: #ffffff;
@@ -101,7 +108,6 @@ header {
 }
 
 .logo {
-  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -125,7 +131,6 @@ header {
 .section-menu {
   display: flex;
   justify-content: flex-start;
-
   align-items: center;
   padding: 0;
   margin: 0 0 0 93px;
@@ -136,21 +141,8 @@ header {
   justify-content: flex-start;
   align-items: center;
   margin-right: 50px;
+  padding: 32px 0;
 
-  align-items: baseline;
-}
-
-.section-menu .item + .item {
-  margin-left: 50px;
-}
-
-.section-menu .item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-left: 50px;
-}
-
-.section-menu .link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -192,22 +184,6 @@ header {
   margin-right: 0;
 }
 
-
-  align-items: baseline;
-  margin-left: auto;
-  margin-right: 215px;
-}
-
-.section-contacts .item + .item {
-  margin-left: 30px;
-}
-
-.section-contacts .item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  margin-left: 305px;
-}
-
 .section-contacts-mail,
 .section-contacts-nomer {
   color: var(--title-text-color);
@@ -239,7 +215,6 @@ header {
 
 .footer {
   display: flex;
->>>>>>> Stashed changes
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -249,10 +224,6 @@ header {
 
   color: var(--accent-color);
   background: #2f303a;
-}
-
-.footer-container {
-  display: block;
 }
 
 .footer span {
@@ -275,20 +246,30 @@ header {
 }
 
 .contacts .address {
-<<<<<<< Updated upstream
-  padding-bottom: 9px;
-=======
+  /* padding-bottom: 9px; */
   display: flex;
->>>>>>> Stashed changes
   color: var(--primary-white-color);
+  margin-top: 20px;
+}
+
+.contacts .address {
+  margin-bottom: 9px;
+}
+
+.contacts .address:last-child {
+  margin-bottom: 0;
+}
+
+.contacts .item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--primary-white-color);
 }
 
-.contacts .address:hover,
-.contacts .address:focus {
+.contacts .item:hover,
+.contacts .item:focus {
   cursor: pointer;
 }
 
@@ -304,10 +285,14 @@ header {
 .contacts .tel {
   display: flex;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts .tel {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .contacts .mail:hover,
