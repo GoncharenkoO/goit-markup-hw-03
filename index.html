@@ -42,7 +42,7 @@
 
         <!-- About section -->
             <section class="hero">
-                <div class="container hero">
+                <div class="container hero-container">
                     <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
                     <button type="button" class="button primary">Заказать услугу</button>
                 </div>
@@ -87,13 +87,13 @@
                     
                     <ul class="list">
                         <li class="item">
-                            <img width="370" src="images/box.jpg" alt="fullstack">
+                            <img class="image" width="370" src="images/box.jpg" alt="fullstack">
                         </li>
                         <li class="item">
-                            <img width="370" src="images/box2.jpg" alt="ios">    
+                            <img class="image" width="370" src="images/box2.jpg" alt="ios">    
                         </li>
                         <li class="item">
-                            <img width="370" src="images/box3.jpg" alt="design">
+                            <img class="image" width="370" src="images/box3.jpg" alt="design">
                         </li>
                     </ul>
                 </div>
@@ -106,24 +106,32 @@
 
                     <ul class="list">
                         <li class="item">
-                            <img width="270" src="images/team1.jpg" alt="team">
-                            <h3 class="name">Игорь Демьяненко</h3>
-                            <p class="profession">Product Designe</p>
+                            <img class="image" width="270" src="images/team1.jpg" alt="team">
+                            <div class="team">
+                                <h3 class="name">Игорь Демьяненко</h3>
+                                <p class="profession">Product Designe</p>
+                            </div>
                         </li>
                         <li class="item">
-                            <img width="270" src="images/team2.jpg" alt="team">
-                            <h3 class="name">Ольга Репина</h3>
-                            <p class="profession">Frontend Developer</p>
+                            <img class="image" width="270" src="images/team2.jpg" alt="team">
+                            <div class="team">
+                                <h3 class="name">Ольга Репина</h3>
+                                <p class="profession">Frontend Developer</p>
+                            </div>
                         </li>
                         <li class="item">
-                            <img width="270" src="images/team3.jpg" alt="team">
-                            <h3 class="name">Николай Тарасов</h3>
-                            <p class="profession">Marketing</p>
+                            <img class="image" width="270" src="images/team3.jpg" alt="team">
+                            <div class="team">
+                                <h3 class="name">Николай Тарасов</h3>
+                                <p class="profession">Marketing</p>
+                            </div>
                         </li>
                         <li class="item">
-                            <img width="270" src="images/team4.jpg" alt="team">
-                            <h3 class="name">Михаил Ермаков</h3>
-                            <p class="profession">UI Designer</p>
+                            <img class="image" width="270" src="images/team4.jpg" alt="team">
+                            <div class="team">
+                                <h3 class="name">Михаил Ермаков</h3>
+                                <p class="profession">UI Designer</p>
+                            </div>
                         </li>
                     </ul>   
                 </div> 
@@ -137,9 +145,11 @@
             <a class="logo" href="./index.html" class="footer">Web<span class="footer">Studio</span></a>
 
             <address class="contacts">
-            <a class="address">г. Киев, пр-т Леси Украинки, 26</a><br>
-            <a class="mail" href="mailto:info@example.com">info@example.com</a><br>
-            <a class="tel" href="tel:+38 099 111 11 11">+38 099 111 11 11</a><br>
+                <ul class="address">
+                    <li class="address item"><p clas="address">г. Киев, пр-т Леси Украинки, 26</p></li>
+                    <li class="address mail"><a class="mail" href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="address tel"><a class="tel" href="tel:+38 099 111 11 11">+38 099 111 11 11</a></li>
+                </ul>                  
             </address>
         </div>
     </footer>

@@ -2,7 +2,6 @@
 
 .filter {
   color: #212121;
-  background: #e5e5e5;
 }
 
 .filter-list {
@@ -12,7 +11,7 @@
 }
 
 .section .item {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 
 .section .item:last-child {
@@ -70,7 +69,6 @@
 }
 
 .section .list .image {
-  display: block;
   object-fit: cover;
 }
 
