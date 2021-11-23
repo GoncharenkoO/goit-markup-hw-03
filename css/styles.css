@@ -84,7 +84,6 @@
   padding: 0;
   margin: 0;
   margin-bottom: 10px;
-  margin-right: 30px;
 
   font-weight: bold;
   font-size: 14px;
@@ -170,7 +169,7 @@
 .team-section .item {
   margin: 0;
   margin-right: 30px;
-  padding: 0;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -178,6 +177,10 @@
 
 .team-section .item:last-child {
   margin-right: 0;
+}
+
+.team {
+  padding: 32px 0;
 }
 
 .team .name {
@@ -189,7 +192,6 @@
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
-  padding-top: 30px;
 
   font-weight: 500;
   font-size: 16px;
@@ -202,7 +204,6 @@
 .list .profession {
   margin: 0;
   padding: 0;
-  padding-bottom: 30px;
 
   font-size: 16px;
   line-height: 1.19;
